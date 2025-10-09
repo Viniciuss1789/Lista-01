@@ -107,6 +107,85 @@ function ex10() {
 btnEx10.addEventListener('click', ex10)
 
 function ex11() {
+    let raio = parseFloat(prompt("Digite o raio do circulo : "))
+    let pi = Math.PI
+    let area = raio * raio / pi
+    alert("A area do circulo é : " + area)
 }
 
 btnEx11.addEventListener('click', ex11)
+
+function ex12() {
+    let nota = parseFloat(prompt("Digite a sua nota : "))
+    let nota02 = parseFloat(prompt("Digite a sua nota : "))
+    let nota03 = parseFloat(prompt("Digite a sua nota : "))
+    let media = (nota + nota02 + nota03) / 3
+    alert("Sua média é : " + media)
+}
+
+btnEx12.addEventListener('click', ex12)
+
+function ex13() {
+    let numero = parseInt(prompt("Digite um número que irei lhe mostrar o dobro : "))
+    let dobro = numero * 2
+    alert("O dobro de seu valor é : " + dobro)
+}
+
+btnEx13.addEventListener('click', ex13)
+
+function ex14() {
+    let numero = parseInt(prompt("Digite um número: "))
+    let parteInteira = parseInt(numero);
+    alert("A parte inteira do número é: " + numero + " é " + parteInteira)
+}
+
+btnEx14.addEventListener('click', ex14)
+
+function ex15() {
+    let peso = parseFloat(prompt("Digite seu peso: "))
+    let altura = parseFloat(prompt("Digite sua altura: "))
+    let imc = peso / (altura * altura)
+    alert("O seu IMC é: " + imc);
+}
+
+btnEx15.addEventListener('click', ex15)
+
+function ex16() {
+    let produto = parseFloat(prompt("Digite o nome do produto: "))
+    let preço = parseFloat(prompt("Digite o preço do produto: "))
+    let desconto = (preço * 0.12)
+    alert("O valor do produto com desconto é: " + desconto)
+}
+
+btnEx16.addEventListener('click', ex16)
+
+function ex17() {
+    var nome01 = prompt("Digite o nome da primeira pessoa: ")
+    let idade01 = parseInt(prompt("Digite a idade da primeira pessoa: "))
+    var nome02 = prompt("Digite o nome da segunda pessoa: ")
+    let idade02 = parseInt(prompt("Digite a idade da segunda pessoa: "))
+    var nome03 = prompt("Digite o nome da terceira pessoa: ")
+    let idade03 = parseInt(prompt("Digite a idade da terceira pessoa: "))
+    media = (idade01 + idade02 + idade03) / 3
+    alert("A media das idades é " + media)
+}
+
+btnEx17.addEventListener('click', ex17)
+
+function ex18() {
+    let metro = parseFloat(prompt("Digite o valor em metros: "))
+    let centimentos = metro * 100
+    let milimetros = metro * 1000
+    alert("metros é igual a: " + centimentos + " centimentos " + " e " + milimetros + "milimetros")
+}
+
+btnEx18.addEventListener('click', ex18)
+
+function ex19() {
+    let base = parseFloat(prompt("Digite a base do triângulo: "))
+    let altura = parseFloat(prompt("Digite a altura do triângulo: "))
+    let hipotenusa = (base * base) + (altura * altura)
+    alert("O valor da hipotenusa é: " + hipotenusa)
+}
+
+btnEx19.addEventListener('click', ex19)
